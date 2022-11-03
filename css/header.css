@@ -1,0 +1,110 @@
+.container {
+    padding: 20px 100px;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.container-header {
+    width: 100%;
+    height: 100vh;
+    background: no-repeat center center / cover url(../images/intro/1.jpg);
+}
+/*НАВИГАЦИЯ*/
+.navigation {
+    display: grid;
+    grid-template-columns: auto 10% 10% 12% 10% 10% 13%;
+    gap: 35px;
+}
+
+.sup-menu {
+    flex-direction: column;
+    position: relative;
+    display: inline-block;
+}
+.none-block {
+    display: none;
+    position: absolute;
+    width: 200%;
+    border-radius: 5px;
+    background-color: #1b6eb8;
+    z-index: 10;
+    padding: 10px;
+}
+.none-block-link {
+    text-align: start !important;
+    margin-bottom: 5px;
+    display: block;
+}
+.sup-menu:hover .none-block {
+    display: block;
+}
+.none-block-link:hover {
+    color: black !important;
+}
+.nav-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: blue;
+}
+.info-header {
+    text-align: center;
+    width: 100%;
+    max-width: 1148px;
+    margin: 100px auto auto;
+}
+.info-header_title {
+    height: 116px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #ffffff;
+}
+
+.info-header_subtitle {
+    margin: 20px auto 40px auto;
+    height: 41px;
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.info-header_company {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.logo-company {
+    margin-right: 15px;
+}
+
+.title-shadow {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.title-shadow::after {
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #1b6eb8;
+    z-index: -10;
+    opacity: 0.7;
+}

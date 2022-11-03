@@ -1,0 +1,9 @@
+.video-company {
+  width: 100%;
+  max-width: 760px;
+  height: 417px;
+  margin: 70px auto;
+}
+video {
+  border-radius: 20px;
+}

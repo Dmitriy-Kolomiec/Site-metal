@@ -1,0 +1,47 @@
+.header-service-four {
+  background: no-repeat center center / cover
+    url(../images/service/page-4/5555.png);
+  width: 100%;
+  height: 444px;
+  margin-bottom: 80px;
+}
+.list-advantage {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  width: 60%;
+  margin-top: 40px;
+}
+.list-applications {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.list-applications li {
+  margin-bottom: 25px;
+}
+.info-service-four {
+  background: no-repeat center center / cover
+    url(../images/service/page-4/footer.png);
+  width: 100%;
+  height: 785;
+}
+.title-service-four {
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.img-rigth-four {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.img-left-four {
+  position: absolute;
+  top: 200px;
+  left: 0;
+}

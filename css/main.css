@@ -1,0 +1,88 @@
+/*ABOUT-COMPANY*/
+.about-company {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    margin: 50px auto;
+}
+.title-company {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 58px;
+    color: #000000;
+}
+.text-company {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+/*MAIN*/
+.main-info-company {
+    width: 100%;
+    height: 265px;
+    margin-bottom: 150px;
+    background: no-repeat center center / cover url(../images/main/1.jpg);
+}
+.title-info-company {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+    gap: 30px;
+    margin: 30px 0;
+}
+.info-service {
+    margin: 20% auto;
+}
+.btn-service {
+    margin: 0 30%;
+}
+.title-service {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.template-service-main h3 {
+    font-size: 20px;
+}
+
+.template-service-main {
+    width: 100%;
+    max-width: 615px;
+    height: 100%;
+    min-height: 417px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.quiz {
+    display: flex;
+    margin: 150px auto;
+    width: 100%;
+    max-width: 1160px;
+    height: 271px;
+    background-color: #c4c4c4;
+    justify-content: center;
+    align-items: center;
+}

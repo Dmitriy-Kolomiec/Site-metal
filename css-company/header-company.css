@@ -1,0 +1,86 @@
+.header-company {
+    width: 100%;
+    height: 444px;
+    background: no-repeat center center / cover
+        url(../images/about-company/1.jpg);
+}
+.text-header {
+    width: 100%;
+    max-width: 940px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.about-company {
+    display: grid;
+    grid-template-areas:
+        'block-company-one block-company-two block-company-two'
+        'block-company-three block-company-three block-company-three'
+        'block-company-four block-company-four block-company-five';
+}
+.img-right-company {
+    position: relative;
+}
+.img-right-about {
+    position: absolute;
+    top: 300px;
+    right: -10px;
+}
+.block-company-one {
+    grid-area: block-company-one;
+}
+.block-company-two {
+    grid-area: block-company-two;
+}
+.block-company-three {
+    grid-area: block-company-three;
+}
+.block-company-four {
+    grid-area: block-company-four;
+}
+.directions-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.text-company {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+/*DIGNITY*/
+.dignity-container {
+    margin-top: 100px;
+}
+.dignity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.dignity-block {
+    width: 100%;
+    max-width: 302px;
+    height: 100%;
+    max-height: 226px;
+    margin-top: 100px;
+}
+/*footer*/
+.footer-company {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 635px;
+}
+.container-footer-company {
+    padding-top: 70px;
+}

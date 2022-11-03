@@ -1,0 +1,82 @@
+.title-stages {
+  margin: 150px 0;
+  font-size: 31px;
+}
+.stages-of-work {
+  background: no-repeat center center / cover
+    url(../images/main/stages-of-work/1.png);
+  height: 600px;
+  position: relative;
+  margin-bottom: 200px;
+}
+.stages {
+  padding-left: 47%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-areas:
+    "block-one block-two block-three"
+    "block-four block-five .";
+  row-gap: 5em;
+}
+.stage {
+  display: inline-block;
+  height: 100%;
+  border-left: 4px solid #1b6eb8;
+  padding-left: 10px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+.stage h3 {
+  font-family: "Play";
+  font-size: 20px;
+  line-height: 31px;
+}
+.stage h4 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 28px;
+}
+.block-one {
+  grid-area: block-one;
+}
+.block-two {
+  grid-area: block-two;
+}
+.block-three {
+  grid-area: block-three;
+}
+.block-four {
+  grid-area: block-four;
+}
+.block-five {
+  grid-area: block-five;
+}
+
+.blue-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 596px;
+  height: 800px;
+  background-color: #1b6eb8;
+  z-index: 10;
+  color: #ffffff;
+  margin-top: -100px;
+}
+.text-blue-block {
+  font-style: normal;
+  font-weight: 400;
+  margin: 30% 50px 0 134px;
+}
+.text-blue-block h2 {
+  font-family: "Play";
+  margin-bottom: 70px;
+  font-size: 64px;
+  line-height: 80px;
+}
+.text-blue-block h4 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 31px;
+}

@@ -1,0 +1,106 @@
+.application {
+    background: no-repeat center center / cover
+        url(../images/main/application/1.jpg);
+    height: 797px;
+    width: 100%;
+}
+.block-application {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 170px;
+}
+.title-application {
+    text-align: center;
+    margin: 60px auto;
+}
+.text-application {
+    margin-top: 60px;
+}
+.items-application {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    display: inline-block;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.icon-application {
+    content: '';
+    position: absolute;
+    top: 15%;
+    left: -10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #1b6eb8;
+}
+.icon-application::before,
+.icon-application::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-application::after {
+    width: 18px;
+    height: 28px;
+    transform: translate(-50%, -60%) rotate(225deg);
+    border-top: 5px solid #fff;
+    border-left: 6px solid #fff;
+}
+
+.form-application {
+    width: 440px;
+    height: 554px;
+    background: #fff;
+    border: transparent;
+    border-radius: 10px;
+}
+.form-title-application {
+    text-align: center;
+    margin: 15px 50px;
+}
+.input-application {
+    width: 350px;
+    height: 70px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.block-intups-application {
+    margin: 0;
+    border: none;
+    display: grid;
+    justify-content: center;
+}
+.footer-application {
+    width: 350px;
+    margin: 0 auto;
+}
+.btn-application {
+    width: 100%;
+}
+.btn-application p {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-align: center;
+    color: #000000;
+}
+/* .items-application::before {
+  content: "";
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #1b6eb8;
+} */

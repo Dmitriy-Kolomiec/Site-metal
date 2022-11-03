@@ -1,0 +1,16 @@
+.reviews {
+  background: no-repeat center center / cover
+    url(../images/main/thanks-letter/1.jpg);
+  width: 100%;
+  max-width: 1700px;
+  height: 684px;
+}
+.title-reviews {
+  color: #fff;
+}
+.thanks-letter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 90px;
+  margin-top: 90px;
+}

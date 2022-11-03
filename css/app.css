@@ -1,0 +1,17 @@
+@import 'common.css';
+@import 'header.css';
+@import 'btn.css';
+@import 'main.css';
+@import 'completed-works.css';
+@import 'stages-of-work.css';
+@import 'application.css';
+@import 'video-block.css';
+@import 'reviews.css';
+@import 'footer.css';
+@import '../css-company/header-company.css';
+@import '../css-service/service-one.css';
+@import '../css-service/service-two.css';
+@import '../css-service/service-three.css';
+@import '../css-service/service-four.css';
+@import 'price-list.css';
+@import 'buy.css';

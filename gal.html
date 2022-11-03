@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script type="text/javascript">
+            function setBigImage(foto) {
+                document.getElementById('bigimg').src = foto.src;
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <p>
+                <img
+                    id="bigimg"
+                    src="./images/main/completed-work/яблоновский-цех/1.jpg"
+                    height="450"
+                    alt="Главное изображение"
+                />
+            </p>
+            <table>
+                <tr>
+                    <td>
+                        <img
+                            src="./images/main/completed-work/яблоновский-цех/2.jpg"
+                            width="100"
+                            height="80"
+                            onclick="setBigImage(this)"
+                            alt="Изображение 2"
+                        />
+                    </td>
+                    <td>
+                        <img
+                            src="./images/main/completed-work/яблоновский-цех/1.jpg"
+                            width="100"
+                            height="80"
+                            onclick="setBigImage(this)"
+                            alt="Изображение 3"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img
+                            src="./images/main/completed-work/яблоновский-цех/4.jpg"
+                            width="100"
+                            height="80"
+                            onclick="setBigImage(this)"
+                            alt="Изображение 4"
+                        />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

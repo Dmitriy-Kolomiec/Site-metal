@@ -1,0 +1,27 @@
+.btn {
+  background: #1b6eb8;
+  border-radius: 6px;
+  width: 241px;
+  height: 60px;
+  border: transparent;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: blue;
+  cursor: pointer;
+}
+.btn-view-work {
+    display: block;
+    margin: 0 auto;
+    padding-top: 23px;
+}

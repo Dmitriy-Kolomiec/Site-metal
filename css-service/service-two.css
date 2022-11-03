@@ -1,0 +1,27 @@
+.service-two-info {
+  height: 319px;
+  margin-top: 150px;
+  padding-top: 30px;
+}
+.pr-info-company {
+  max-width: 829px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0px auto 40px auto;
+  text-align: center;
+}
+.title-mettal-obj {
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.list-metall-obj {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+}
