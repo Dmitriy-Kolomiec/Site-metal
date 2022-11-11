@@ -200,34 +200,30 @@
                     <h2 class="title-shadow">Выполненные работы</h2>
                 </div>
                 <div class="view-work">
-                    <div class="photo-work">
+                    <div class="photo-work js-photo-work">
                         <div class="photo-work-view">
                             <img
+                                class="js-preview"
                                 src="./images/main/completed-work/яблоновский-цех/1.jpg"
                                 alt="Цех №1"
-                                id="bigimg"
                             />
                         </div>
-                        <div class="photo-work-previev">
+                        <div class="photo-work-previev js-photo-work-preview">
                             <img
                                 src="./images/main/completed-work/яблоновский-цех/1.jpg"
                                 alt="Цех №2"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/яблоновский-цех/2.jpg"
                                 alt="Цех №2"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/яблоновский-цех/3.jpg"
                                 alt="Цех №3"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/яблоновский-цех/4.jpg"
                                 alt="Цех №4"
-                                onclick="setBigImage(this)"
                             />
                         </div>
                     </div>
@@ -248,39 +244,34 @@
                             Оставить заявку
                         </button>
                     </div>
-                    <div class="photo-work">
+                    <div class="photo-work js-photo-work">
                         <div class="photo-work-view">
                             <img
+                                class="js-preview"
                                 src="./images/main/completed-work/индустриальный/1.jpg"
                                 alt="Цех №1"
-                                id="bigimg"
                             />
                         </div>
-                        <div class="photo-work-previev">
+                        <div class="photo-work-previev js-photo-work-preview">
                             <img
                                 src="./images/main/completed-work/индустриальный/1.jpg"
                                 alt="Цех №2"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/индустриальный/2.jpg"
                                 alt="Цех №2"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/индустриальный/3.jpg"
                                 alt="Цех №3"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/индустриальный/4.jpg"
                                 alt="Цех №4"
-                                onclick="setBigImage(this)"
                             />
                             <img
                                 src="./images/main/completed-work/индустриальный/5.jpeg"
                                 alt="Цех №5"
-                                onclick="setBigImage(this)"
                             />
                         </div>
                     </div>
@@ -295,39 +286,45 @@
                 </h2>
             </div>
             <div class="stages-of-work">
-                <div class="stages">
-                    <div class="stage block-one">
-                        <h3>01</h3>
-                        <h4>Заявка</h4>
+                <div class="container stages-block">
+                    <div class="stages">
+                        <div class="stage block-one">
+                            <h3>01</h3>
+                            <h4>Заявка</h4>
+                        </div>
+                        <div class="stage block-two">
+                            <h3>02</h3>
+                            <h4>Предлагаем варианты решений</h4>
+                        </div>
+                        <div class="stage block-three">
+                            <h3>03</h3>
+                            <h4>
+                                Выполнение расчета со стоимостью проектирования
+                            </h4>
+                        </div>
+                        <div class="stage block-four">
+                            <h3>04</h3>
+                            <h4>
+                                Договор и согласование проектной документации
+                            </h4>
+                        </div>
+                        <div class="stage block-five">
+                            <h3>05</h3>
+                            <h4>
+                                Завершение строительства и передача строительной
+                                документации
+                            </h4>
+                        </div>
                     </div>
-                    <div class="stage block-two">
-                        <h3>02</h3>
-                        <h4>Предлагаем варианты решений</h4>
-                    </div>
-                    <div class="stage block-three">
-                        <h3>03</h3>
-                        <h4>Выполнение расчета со стоимостью проектирования</h4>
-                    </div>
-                    <div class="stage block-four">
-                        <h3>04</h3>
-                        <h4>Договор и согласование проектной документации</h4>
-                    </div>
-                    <div class="stage block-five">
-                        <h3>05</h3>
-                        <h4>
-                            Завершение строительства и передача строительной
-                            документации
-                        </h4>
-                    </div>
-                </div>
-                <div class="blue-block">
-                    <div class="text-blue-block">
-                        <h2 class="title-shadow">Как мы работаем</h2>
-                        <h4>
-                            Оставьте заявку на сайте и мы в течение 1 рабочего
-                            дня рассчитаем Вам точную стоимость заказа абсолютно
-                            бесплатно!
-                        </h4>
+                    <div class="blue-block">
+                        <div class="text-blue-block">
+                            <h2 class="title-shadow">Как мы работаем</h2>
+                            <h4>
+                                Оставьте заявку на сайте и мы в течение 1
+                                рабочего дня рассчитаем Вам точную стоимость
+                                заказа абсолютно бесплатно!
+                            </h4>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -626,6 +623,7 @@
         </div>
         <a href="#" class="back_to_top"> </a>
         <script src="./js/maps.js"></script>
+        <script src="./js/gallery.js"></script>
         <script src="./js/btn-js.js"></script>
         <script src="./js/modal-window.js"></script>
         <script
