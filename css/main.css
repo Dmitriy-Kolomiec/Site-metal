@@ -36,15 +36,15 @@
     width: 100%;
     max-width: 850px;
     margin: auto;
-    padding-top: 5%;
+    padding-top: 80px;
 }
 
 .services {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin: 30px 0;
+    margin: 30px auto;
 }
 .info-service {
     margin: 20% auto;
@@ -71,6 +71,7 @@
     max-width: 615px;
     height: 100%;
     min-height: 417px;
+    margin: 0px auto;
 }
 a {
     text-decoration: none;
