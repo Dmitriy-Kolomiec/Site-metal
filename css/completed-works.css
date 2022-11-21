@@ -12,11 +12,6 @@
     max-width: 660px;
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-areas:
-        'one one one one one one '
-        '. . . . . .'
-        'two three four . . .';
-    column-gap: 10px; */
     gap: 10px;
 }
 .photo-work-view img {
@@ -25,33 +20,20 @@
 }
 .photo-work-previev {
     display: flex;
-    column-gap: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .photo-work-previev img {
     width: 81px;
     height: 75px;
     transition: 0.2s ease-in-out;
 }
-/* .hover-img {
-    width: 100%;
-    transition: 0.3s ease-in-out;
-} */
+
 .photo-work-previev img:hover {
     scale: 1.03;
     box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.5);
 }
-/* .one-photo {
-    grid-area: one;
-}
-.two-photo {
-    grid-area: two;
-}
-.three-photo {
-    grid-area: three;
-}
-.four-photo {
-    grid-area: four;
-} */
+
 .address-text {
     margin-bottom: 40px;
 }

@@ -1,0 +1,140 @@
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: lightgray;
+    }
+    .info-header {
+        margin: 40px auto;
+    }
+    .services {
+        grid-template-columns: 1fr;
+    }
+    .view-work {
+        grid-template-columns: 1fr;
+    }
+    .address-text {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .address-work {
+        order: 2;
+    }
+
+    .blue-block {
+        width: 400px;
+    }
+    .text-blue-block h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .text-blue-block h4 {
+        font-size: 16px;
+    }
+    .stages {
+        padding-left: 40%;
+    }
+    .text-application {
+        display: none;
+    }
+    .block-application {
+        grid-template-columns: 1fr;
+    }
+    .title-application {
+        margin: 30px auto;
+    }
+    .form-application {
+        margin: 0px auto;
+    }
+    .reviews {
+        height: 500px;
+    }
+    .thanks-letter {
+        column-gap: 30px;
+        margin-top: 40px;
+    }
+    .letter img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: 20px;
+    }
+    .navigation {
+        display: none;
+    }
+    .info-header_title {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .info-header_subtitle {
+        margin: 30px auto 50px auto;
+    }
+    .info-header_company {
+        display: block;
+    }
+    .info-header_company h3 {
+        margin: 30px auto;
+        font-size: 20px;
+    }
+    .about-company {
+        display: inline-block;
+    }
+    .title-info-company {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 25px;
+    }
+    .template-service-main {
+        padding: 20px;
+        width: 414px;
+    }
+    .template-service-main img {
+        width: 380px;
+    }
+    .btn-service {
+        margin: 0px 20%;
+    }
+    .photo-work-view img {
+        width: 400px;
+        height: 350px;
+    }
+    .title-shadow {
+        position: static;
+    }
+    .blue-block {
+        display: none;
+    }
+    .stages {
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    .stage h4 {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .form-application {
+        width: 380px;
+    }
+    .title-application {
+        margin: 20px auto;
+        line-height: 35px;
+    }
+    .input-application {
+        height: 50px;
+    }
+    .reviews {
+        display: none;
+    }
+    .address:nth-child(3),
+    .address:last-child {
+        display: none;
+    }
+    .footer-two-maps {
+        display: block;
+    }
+    #map-production-js {
+        display: none;
+    }
+}

@@ -59,7 +59,7 @@
     text-align: center;
     width: 100%;
     max-width: 1148px;
-    margin: 100px auto ;
+    margin: 100px auto;
 }
 .info-header_title {
     font-family: 'Play';
@@ -72,7 +72,6 @@
 
 .info-header_subtitle {
     margin: 20px auto 40px auto;
-    height: 41px;
     font-family: 'Open sans';
     font-style: normal;
     font-weight: 400;
