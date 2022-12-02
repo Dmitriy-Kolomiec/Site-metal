@@ -41,6 +41,9 @@
 .none-block-link:hover {
     color: black !important;
 }
+.logo-header {
+    width: 130px;
+}
 .nav-link {
     font-family: 'Open Sans';
     font-style: normal;
