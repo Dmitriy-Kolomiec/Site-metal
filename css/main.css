@@ -33,7 +33,6 @@
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
-    width: 100%;
     max-width: 850px;
     margin: auto;
     padding-top: 80px;
@@ -80,7 +79,6 @@ a {
 .quiz {
     display: flex;
     margin: 150px auto;
-    width: 100%;
     max-width: 1160px;
     height: 271px;
     background-color: #c4c4c4;
